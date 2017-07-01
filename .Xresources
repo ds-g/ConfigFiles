@@ -1,10 +1,10 @@
-XTerm.termName: xterm-256color
+XTerm.vt100.termName: xterm-256color
 
 XTerm.vt100.colorMode: on
 XTerm.vt100.dynamicColors: on
 
 XTerm.vt100.translations: #override \n\
-	Shift Ctrl <KeyPress> Up :larger-vt-font() \n\
+	Shift Ctrl <KeyPress> Up:larger-vt-font() \n\
 	Shift Ctrl <KeyPress> Down:smaller-vt-font() \n\
 
 XTerm.vt100.foreground:   #ccbbb0
@@ -26,3 +26,6 @@ XTerm.vt100.color6:       #6e804d
 XTerm.vt100.color14:      #9ab36b
 XTerm.vt100.color7:       #b3a49a
 XTerm.vt100.color15:      #ccbbb0
+
+XTerm.vt100.renderFont: true
+XTerm.vt100.faceName: Hack:size=12:antialias=true
