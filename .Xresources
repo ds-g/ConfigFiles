@@ -7,25 +7,32 @@ XTerm.vt100.translations: #override \n\
 	Shift Ctrl <KeyPress> Up:larger-vt-font() \n\
 	Shift Ctrl <KeyPress> Down:smaller-vt-font() \n\
 
-XTerm.vt100.foreground:   #ccbbb0
-XTerm.vt100.background:   #1b0b10
-XTerm.vt100.cursorColor:  #ccbbb0
-XTerm.vt100.color0:       #1b0b10
-XTerm.vt100.color8:       #241016
-XTerm.vt100.color1:       #82354f
-XTerm.vt100.color9:       #b33e65
-XTerm.vt100.color2:       #803466
-XTerm.vt100.color10:      #b33e8c
-XTerm.vt100.color3:       #4f3480
-XTerm.vt100.color11:      #673eb3
-XTerm.vt100.color4:       #346580
-XTerm.vt100.color12:      #3e8ab3
-XTerm.vt100.color5:       #348068
-XTerm.vt100.color13:      #3eb38c
-XTerm.vt100.color6:       #6e804d
-XTerm.vt100.color14:      #9ab36b
-XTerm.vt100.color7:       #b3a49a
-XTerm.vt100.color15:      #ccbbb0
-
 XTerm.vt100.renderFont: true
-XTerm.vt100.faceName: Hack:size=12:antialias=true
+XTerm.vt100.faceName: Terminus:size=12:antialias=true
+
+XTerm.vt100.foreground: #C7C7C7
+XTerm.vt100.background: #151515
+!black
+XTerm.vt100.color0:     #393939
+XTerm.vt100.color8:     #474747
+!red
+XTerm.vt100.color1:     #FF9F95
+XTerm.vt100.color9:     #FF8D80
+!green
+XTerm.vt100.color2:     #E2FFC7
+XTerm.vt100.color10:    #DBFFB3
+!yellow
+XTerm.vt100.color3:     #FFFFB9
+XTerm.vt100.color11:    #FFBE64
+!blue
+XTerm.vt100.color4:     #A8CEEA
+XTerm.vt100.color12:    #7EB6FF
+!magenta
+XTerm.vt100.color5:     #E2B5CC
+XTerm.vt100.color13:    #E296FF
+!cyan
+XTerm.vt100.color6:     #C2EFFF
+XTerm.vt100.color14:    #9CE9FF
+!white
+XTerm.vt100.color7:     #dddddd
+XTerm.vt100.color15:    #dddddd
