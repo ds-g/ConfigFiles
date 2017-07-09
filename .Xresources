@@ -8,7 +8,8 @@ XTerm.vt100.translations: #override \n\
 	Shift Ctrl <KeyPress> Down:smaller-vt-font() \n\
 
 XTerm.vt100.renderFont: true
-XTerm.vt100.faceName: Terminus:size=12:antialias=true
+XTerm.vt100.allowBoldFonts: false
+XTerm.vt100.faceName: Px437 IBM VGA8:size=12:antialias=true
 
 
 ! special
