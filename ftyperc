@@ -249,6 +249,7 @@
 -autoindent
 -syntax c
 -highlighter_context
+-spaces
 -smarthome
 -smartbacks
 -purify
@@ -331,6 +332,19 @@
 *.java
 -autoindent
 -syntax java
+-smarthome
+-smartbacks
+-c_comment
+-cpp_comment
+-purify
+-cpara >#!;*/%
+
+ PROCESSING
+[processing]
+*.pde
+-autoindent
+-syntax java
+-spaces
 -smarthome
 -smartbacks
 -c_comment
@@ -440,6 +454,7 @@
 *.scm
 -autoindent
 -syntax scheme
+-spaces
 -semi_comment
 
  Korn shell
