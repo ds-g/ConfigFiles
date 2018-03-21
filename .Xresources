@@ -7,6 +7,8 @@ XTerm.vt100.translations: #override \n\
 	Shift Ctrl <KeyPress> Up:larger-vt-font() \n\
 	Shift Ctrl <KeyPress> Down:smaller-vt-font() \n\
 
+XTerm.vt100.selectToClipboard: true
+
 XTerm.vt100.renderFont: true
 XTerm.vt100.allowBoldFonts: false
 XTerm.vt100.faceName: Px437 IBM VGA8:size=12:antialias=true
